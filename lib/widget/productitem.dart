@@ -27,8 +27,8 @@ class _ProductItemState extends State<ProductItem> {
         child: ListTile(
           leading: InkWell(
             onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => MyHomePage()));
+              Navigator.push(
+                  context, MaterialPageRoute(builder: (context) => HomePage()));
             },
             child: CircleAvatar(
               backgroundImage: NetworkImage(link),

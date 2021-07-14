@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../provider/connect.dart';
 import '../provider/products.dart';
-import 'package:share/share.dart';
 
 class ProductDetailScreen extends StatelessWidget {
   final String title;
@@ -58,12 +57,7 @@ class ProductDetailScreen extends StatelessWidget {
             // ignore: deprecated_member_use
             RaisedButton(
               child: Text('Share'),
-              onPressed: () {
-                Share.share(
-                  loadedProduct.name,
-                  subject: image + loadedProduct.images,
-                );
-              },
+              onPressed: () {},
             ),
           ],
         ),

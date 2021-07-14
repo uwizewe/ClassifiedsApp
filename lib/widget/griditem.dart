@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../provider/connect.dart';
-import '../productview.dart';
+import '../productdetail.dart';
 import 'package:share/share.dart';
 
 class ProductItem extends StatelessWidget {
@@ -18,10 +18,8 @@ class ProductItem extends StatelessWidget {
       child: GridTile(
         child: GestureDetector(
           onTap: () {
-            Navigator.push(
-                context,
-                MaterialPageRoute(
-                    builder: (context) => ProductDetailScreen('name', 0)));
+            Navigator.push(context,
+                MaterialPageRoute(builder: (context) => AvocadoPage(title)));
           },
           child: Image.network(
             link,
@@ -29,14 +27,7 @@ class ProductItem extends StatelessWidget {
           ),
         ),
         footer: GridTileBar(
-          backgroundColor: Colors.black87,
-          leading: IconButton(
-            icon: Icon(
-              Icons.favorite_border,
-            ),
-            color: Theme.of(context).accentColor,
-            onPressed: () {},
-          ),
+          backgroundColor: Colors.black54,
           title: Column(
             children: [
               Text(
@@ -44,7 +35,7 @@ class ProductItem extends StatelessWidget {
                 textAlign: TextAlign.center,
               ),
               Text(
-                cost.toString() + "FRW",
+                cost.toString() + " FRW",
                 textAlign: TextAlign.center,
               ),
             ],
@@ -55,8 +46,13 @@ class ProductItem extends StatelessWidget {
             ),
             onPressed: () {
               Share.share(
-                title,
-                subject: image + imageUrl,
+                ' Product:' +
+                    title +
+                    ' Price: ' +
+                    cost.toString() +
+                    ' FRW from Download image on this link:' +
+                    imageUrl,
+                subject: "Product Details",
               );
             },
             color: Theme.of(context).accentColor,

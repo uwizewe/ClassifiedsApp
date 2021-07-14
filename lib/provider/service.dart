@@ -4,8 +4,6 @@ import 'dart:convert';
 import './connect.dart';
 
 class Services {
-  static var root = con + 'flutter.php';
-
   static Future<String> register(
     String name,
     String phone,
