@@ -16,4 +16,7 @@ Follow these steps  (for  back code)
 3) Copy API nodejs folder and paste on server 
 4) Go on folder in and open cmd and runder node server.js 
 
+![image](https://user-images.githubusercontent.com/30812040/125620395-f469f095-9d30-4f34-836d-307ec3581ede.png)
+
+
  
