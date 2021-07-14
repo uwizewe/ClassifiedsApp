@@ -1,16 +1,19 @@
-# bktech
+# ClassifiedsAp
 
-A new Flutter project.
 
-## Getting Started
+If you want to run the code, you can do that as well though. 
 
-This project is a starting point for a Flutter application.
+Follow these steps  (for front code  Flutter ) 
+1) Donload  full project   
+2) Possibly add assets like images or fonts or adjust the AndroidManifest.xml / Info.plist ﬁle to add data/ permissions 
+3) ﬂutter packages get 
+4) ﬂutter run (with a running emulator or real device connected to your machine) to view the app
+5) Replace   connectivite by  modification of file lib/provider/connect.dart   replace IP Address of server 
 
-A few resources to get you started if this is your first Flutter project:
+Follow these steps  (for  back code) 
+1)  Create database on mysql   
+2) import  database 
+3) Copy API nodejs folder and paste on server 
+4) Go on folder in and open cmd and runder node server.js 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ 
