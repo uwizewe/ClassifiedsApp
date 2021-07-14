@@ -17,7 +17,8 @@ Follow these steps  (for  back code)
 4) Go on folder in and open cmd and runder node server.js 
 
  
-![image](https://user-images.githubusercontent.com/30812040/125620574-bd99d8d7-1e2e-4a84-b7cf-4df3af2165ce.png)
+ ![image](https://user-images.githubusercontent.com/30812040/125620802-c50f98e3-eb1d-47eb-a95d-eab104e21485.png)
+
 
 
  
