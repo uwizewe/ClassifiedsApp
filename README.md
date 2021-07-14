@@ -4,7 +4,7 @@
 If you want to run the code, you can do that as well though. 
 
 Follow these steps  (for front code  Flutter ) 
-1) Donload  full project   
+1) Download full project   
 2) Possibly add assets like images or fonts or adjust the AndroidManifest.xml / Info.plist ﬁle to add data/ permissions 
 3) ﬂutter packages get 
 4) ﬂutter run (with a running emulator or real device connected to your machine) to view the app
